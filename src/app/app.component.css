@@ -1,0 +1,185 @@
+.twPc-div {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #e1e8ed;
+  border-radius: 6px;
+  height: 296px;
+  max-width: 100%;
+}
+.twPc-bg {
+  /* background-image: url("https://pbs.twimg.com/profile_banners/50988711/1384539792/600x200"); */
+  background-position: 0 50%;
+  background-size: 100% auto;
+  border-bottom: 1px solid #e1e8ed;
+  border-radius: 4px 4px 0 0;
+  height: 250px;
+  width: 100%;
+}
+.twPc-block {
+  display: block !important;
+}
+.twPc-button {
+  margin: -35px -10px 0;
+  text-align: right;
+  width: 100%;
+}
+
+.twPc-avatarLink {
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block !important;
+  float: left;
+  margin: -47px 1px 0 32px;
+  max-width: 100%;
+  padding: 2px;
+  vertical-align: bottom;
+}
+
+
+.avatar {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  border: 3px solid ghostwhite;
+}
+
+button{
+  margin-right: 13px;
+}
+
+.buttonedit{
+  border-radius: 4px;
+  border: 1px solid #2B68A0;
+  font-size: 13px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  font-weight: 700;
+}
+
+.buttonswitchprofile{
+  border-radius: 4px;
+  border: 1px solid #707070;
+  font-size: 13px;
+  /* padding: 1px; */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  background: #1CCDF9;
+  font-weight: 700;
+}
+
+.vedioicon{
+  width: 26px  !important;
+  height: 26px !important;
+  position: absolute  !important;
+  top: 249px  !important;
+  left: 9.1rem  !important;
+}
+
+
+
+.twPc-divUser {
+  margin: 5px 0 0;
+}
+.twPc-divName {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.twPc-divName a {
+  color: inherit !important;
+}
+
+
+ul.twPc-Arrange {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.twPc-ArrangeSizeFit a:hover {
+  text-decoration: none;
+}
+.twPc-StatValue {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.15s ease-in-out 0s;
+}
+.twPc-StatLabel {
+  color: #8899a6;
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  overflow: hidden;
+  text-transform: uppercase;
+  transition: color 0.15s ease-in-out 0s;
+}
+
+
+
+/* // new css */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+label{
+  display: inline-block;
+  color: white;
+  background-color:#6b6464;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: 100;
+}
+
+.visib-hid{
+  visibility: hidden;
+  width: 1px;
+    height: 2px;
+}
+
+
+.linep{
+  line-height: 35px;
+  font-size: 17px;
+}
+
+.pl-3rem{
+  padding-left: 3rem !important;
+}
+
+i{
+  margin-right: 1rem;
+}
+
+.colorb {
+  color: #208bca;
+}
