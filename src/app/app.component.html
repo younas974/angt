@@ -1,7 +1,8 @@
 
-<div class="container">
+<div class="backgmain vporth"> 
+<div class="container paddingcont">
 
-  <div class="row">
+  <div class="row bgwhite2">
   <!-- code start -->
   <div class="twPc-div" >
 
@@ -18,12 +19,7 @@
 
     </div>
     <div>
-      <div class="twPc-button">
-              <!-- Twitter Button | you can get from: https://about.twitter.com/tr/resources/buttons#follow -->
-              <a href="https://twitter.com/mertskaplan" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @mertskaplan</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-              <!-- Twitter Button -->
-      </div>
+      
 
 
 
@@ -36,13 +32,13 @@
     </div>
   </div>
 
-  <div class="col-md-8 linep pl-3rem">
+  <div class="col-md-8 linep pl-3rem bgwhite">
     <h4>{{this.user.name}} </h4>
     <div>
-      <span> {{this.user.location}} </span> &#8226;   <span> {{this.user.profession}} </span> &#8226;  <span> <a>{{this.user.followers}}</a></span>
+      <span> {{this.user.location}} </span> &#8226;   <span> {{this.user.profession}} </span> &#8226;  <span> <a>{{this.user.followers}} Followers</a></span>
     </div>
 
-    <div>
+    <div >
       <span> Looking for:</span>
       <span *ngFor="let item of user.lookingfor; let i=index" >
         <span class="colorb" *ngIf="i < this.user.lookingfor.length-1" > {{item.name + ','}} </span>
@@ -51,19 +47,19 @@
 
 
     </div>
-    <div>
+    <div class="pb1rem">
       <span *ngFor="let item of this.user.habits;  let i=index">
         <span class="" *ngIf="i < this.user.habits.length-1" > {{item.name + ','}} </span>
         <span class="" *ngIf="i == this.user.habits.length-1" > {{item.name }} </span>
        </span>
     </div>
 
-    <button class="buttonedit"> Edit profile <i class="fa fa-pencil" aria-hidden="true"></i> </button>
-    <button class="buttonswitchprofile">Switch profile</button> <i class="fa fa-ellipsis-v"></i>
+    <button class="buttonedit"> Edit profile <i class="fa fa-pencil colorfapen" aria-hidden="true"></i> </button>
+    <button class="buttonswitchprofile">Switch profile</button> <i class="fa fa-ellipsis-v "></i>
   </div>
 
 
-  <div class="col-md-4 pl-3rem">
+  <div class="col-md-4 pl-3rem bgwhite">
     <p class="linep">
       <i class="fa fa-graduation-cap"></i><span>Studied at: </span> <span><a>{{this.user.education.studiedat}}</a></span>
       <br />
@@ -78,5 +74,5 @@
   <!-- code end -->
   </div>
   </div>
-
+</div>
 <router-outlet></router-outlet>
