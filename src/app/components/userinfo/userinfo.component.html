@@ -1,0 +1,40 @@
+
+  <div class="col-md-8 linep pl-3rem bgwhite">
+    <h4>{{this.user.name}} </h4>
+    <div>
+      <span> {{this.user.location}} </span> &#8226;   <span> {{this.user.profession}} </span> &#8226;  <span> <a>{{this.user.followers}} Followers</a></span>
+    </div>
+
+    <div >
+      <span> Looking for:</span>
+      <span *ngFor="let item of user.lookingfor; let i=index" >
+        <span class="colorb" *ngIf="i < this.user.lookingfor.length-1" > {{item.name + ','}} </span>
+        <span class="colorb" *ngIf="i == this.user.lookingfor.length-1" > {{item.name }} </span>
+      </span>
+
+
+    </div>
+    <div class="pb1rem">
+      <span *ngFor="let item of this.user.habits;  let i=index">
+        <span class="" *ngIf="i < this.user.habits.length-1" > {{item.name + ','}} </span>
+        <span class="" *ngIf="i == this.user.habits.length-1" > {{item.name }} </span>
+       </span>
+    </div>
+
+    <button class="buttonedit"> Edit profile <i class="fa fa-pencil colorfapen" aria-hidden="true"></i> </button>
+    <button class="buttonswitchprofile">Switch profile</button> <i class="fa fa-ellipsis-v "></i>
+  </div>
+
+
+  <div class="col-md-4 pl-3rem bgwhite">
+    <p class="linep">
+      <i class="fa fa-graduation-cap"></i><span>Studied at: </span> <span><a>{{this.user.education.studiedat}}</a></span>
+      <br />
+      <i class="glyphicon glyphicon-file"></i> <span class="colorb"> {{this.user.education.cgpa}}</span> CGPA
+      <br />
+      <i class="glyphicon glyphicon-gift"></i><span class="colorb" >{{this.user.education.ielts}}</span> IELTS | <span class="colorb">{{this.user.education.toefl}}</span> TOEFL
+    <br/>
+    <i class="fa fa-trophy"></i> {{this.user.education.achievments}}
+    </p>
+
+  </div>

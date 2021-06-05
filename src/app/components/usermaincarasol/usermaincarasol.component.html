@@ -1,0 +1,17 @@
+<div class="twPc-div" >
+    <div class="container">
+      <a class="twPc-bg twPc-block" [style.background-image]="'url(/assets/imgs/'+user.coverphoto+')'"></a>
+
+      <button class="btn">
+        <input (change)="uploadFile($event)"  type="file" class="visib-hid" id="upload" hidden/>
+      <label class="" for="upload">  <i class="fa fa-camera colorw"></i> Add cover photo</label>
+      </button>
+    </div>
+    <div>
+
+      <a title="Mert S. Kaplan" href="https://twitter.com/mertskaplan" class="twPc-avatarLink">
+        <img  class="avatar" alt="Mert S. Kaplan" [src]='"/assets/imgs/"+ this.user.profilephoto' />
+        <img  class="avatar vedioicon" alt="Mert S. Kaplan" src="/assets/imgs/vedioicon.png" />
+      </a>
+    </div>
+  </div>

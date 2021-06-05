@@ -1,1 +1,255 @@
 /* You can add global styles to this file, and also import other style files */
+
+.twPc-div {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e1e8ed;
+    border-radius: 6px;
+    height: 284px;
+    max-width: 100%;
+  }
+  .twPc-bg {
+    /* background-image: url("https://pbs.twimg.com/profile_banners/50988711/1384539792/600x200"); */
+    background-position: 0 50%;
+    background-size: 100% auto;
+    border-bottom: 1px solid #e1e8ed;
+    border-radius: 4px 4px 0 0;
+    height: 250px;
+    width: 100%;
+  }
+  .twPc-block {
+    display: block !important;
+  }
+  .twPc-button {
+    margin: -35px -10px 0;
+    text-align: right;
+    width: 100%;
+  }
+  
+  .twPc-avatarLink {
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block !important;
+    float: left;
+    margin: -72px 1px 0 42px;
+    max-width: 100%;
+    padding: 2px;
+    vertical-align: bottom;
+  }
+  
+  
+  .avatar {
+    vertical-align: middle;
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50%;
+    position: relative;
+    border: 3px solid ghostwhite;
+  }
+  
+  button{
+    margin-right: 13px;
+  }
+  
+  .buttonedit{
+    border-radius: 4px;
+    border: 1px solid #a1c6e8;
+    font-size: 13px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    font-weight: 700;
+    height: 34px;
+    color: #2B68A0;
+  }
+  
+  .buttonswitchprofile{
+    border-radius: 4px;
+    border: 1px solid #a9a3a3;
+    font-size: 13px;
+    /* padding: 1px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 17px;
+    padding-left: 17px;
+    background: #08acea;
+    font-weight: 700;
+    height: 34px;
+    color: white;
+  }
+  
+  .vedioicon{
+    width: 26px  !important;
+    height: 26px !important;
+    position: absolute  !important;
+    top: 279px !important;
+    left: 11.1rem !important;
+  }
+  
+  h4{
+    font-weight: bold;
+  }
+  
+  .fa{
+    color: #77787B;
+  }
+  
+  .glyphicon{
+    color: #77787B;
+  }
+  
+  .colorfapen{
+    color: #2B68A0 !important
+  }
+  
+  .twPc-divUser {
+    margin: 5px 0 0;
+  }
+  .twPc-divName {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  .twPc-divName a {
+    color: inherit !important;
+  }
+  
+  
+  ul.twPc-Arrange {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .twPc-ArrangeSizeFit a:hover {
+    text-decoration: none;
+  }
+  .twPc-StatValue {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.15s ease-in-out 0s;
+  }
+  .twPc-StatLabel {
+    color: #8899a6;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: color 0.15s ease-in-out 0s;
+  }
+  
+  
+  
+  /* // new css */
+  
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  label{
+    display: inline-block;
+    color: white;
+    background-color:#6b6464;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 100;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .visib-hid{
+    visibility: hidden;
+    width: 1px;
+      height: 2px;
+  }
+  
+  
+  .linep{
+    line-height: 34px;
+    font-size: 17px;
+  }
+  
+  .pl-3rem{
+    padding-left: 5rem !important;
+  }
+  
+  i{
+    margin-right: 1rem;
+  }
+  
+  .colorb {
+    color: #0772ce;
+    font-weight: bold;
+  }
+  
+  a{
+    color: #0772ce; 
+    font-weight: bold;
+  }
+  
+  .paddingcont{
+      padding-top: 3rem !important;
+      padding-right: 19rem !important;
+      padding-left: 3rem !important;
+  }
+  
+  .backgmain{
+    background : #d6d2d2
+  }
+  
+  .container{
+    padding-right: 0;
+    padding-left: 0;
+  
+  }
+  
+  .bgwhite{
+    background: white;
+    padding-bottom: 2rem;
+  }
+  
+  .vporth{
+    min-height: 100vh;
+  }
+  
+  body{
+    color: #000000;
+  }
+  
+  .pb1rem{
+    padding-bottom: 1rem;
+  }
+  
+  .bgwhite2{
+    background: white;
+  }
+  
+  .colorw{
+    color:white
+  }
