@@ -177,6 +177,8 @@ label{
   cursor: pointer;
   margin-top: 1rem;
   font-weight: 100;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .visib-hid{
@@ -244,4 +246,8 @@ body{
 
 .bgwhite2{
   background: white;
+}
+
+.colorw{
+  color:white
 }
